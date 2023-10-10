@@ -10,6 +10,8 @@ channels = "*"
 channels-redis = "*"
 django-cors-headers = "*"
 daphne = "*"
+pyjwt = "*"
+drf-spectacular = "*"
 
 [dev-packages]
 

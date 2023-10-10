@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "channels", 
+    'user',
+    'drf_spectacular',
+    
 ]
 
 MIDDLEWARE = [
@@ -53,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "iot.custom.HeaderValidationMiddleware",
+    
     
 ]
 
@@ -141,3 +146,61 @@ CHANNEL_LAYERS = {
         },
     },
 }
+
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+
+TEMPLATES = [
+    {
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [],
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
+            ],
+        },
+    },
+]
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "IOT APIs",
+    "DESCRIPTION": "This is the IOT API.",
+    "VERSION": "3.0.0",
+    "CONTACT": {"email": "huy52670@gmail,ccom"},
+    "SERVERS": [
+        {"url": "http://localhost:8000", "description": "Localhost"},
+    ],
+    "APPEND_COMPONENTS": {
+        "securitySchemes": {
+            "Access Token": {
+                "type": "http", 
+                "scheme": "bearer",
+                "in": "header", 
+                "name": "Authorization", 
+                "description": "Please enter the 'Bearer <access_token>' in the input",
+            },
+        }
+    },
+    "SECURITY": [
+        {
+            "Access Token": [],
+            "Bearer": [],
+        }
+    ],
+    "SCHEMA_PATH_PREFIX": r"/v[0-9]",
+    "AUTHENTICATION_WHITELIST": [
+        "rest_framework.authentication.TokenAuthentication",
+    ],
+    'COMPONENT_SPLIT_REQUEST': True
+}
+
+AUTHENTICATION_BACKENDS = [
+    'iot.custom.AuthenticationBackend', 
+    'django.contrib.auth.backends.ModelBackend',
+]

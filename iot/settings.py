@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -41,10 +41,10 @@ INSTALLED_APPS = [
     'message',
     "rest_framework",
     "corsheaders",
-    "channels", 
+    "channels",
     'user',
     'drf_spectacular',
-    
+
 ]
 
 MIDDLEWARE = [
@@ -57,8 +57,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "iot.custom.HeaderValidationMiddleware",
-    
-    
+
+
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -68,7 +68,7 @@ ROOT_URLCONF = 'iot.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR, "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -129,7 +129,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR.joinpath('static')
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -155,7 +158,7 @@ REST_FRAMEWORK = {
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR, "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -179,10 +182,10 @@ SPECTACULAR_SETTINGS = {
     "APPEND_COMPONENTS": {
         "securitySchemes": {
             "Access Token": {
-                "type": "http", 
+                "type": "http",
                 "scheme": "bearer",
-                "in": "header", 
-                "name": "Authorization", 
+                "in": "header",
+                "name": "Authorization",
                 "description": "Please enter the 'Bearer <access_token>' in the input",
             },
         }
@@ -201,6 +204,10 @@ SPECTACULAR_SETTINGS = {
 }
 
 AUTHENTICATION_BACKENDS = [
-    'iot.custom.AuthenticationBackend', 
+    'iot.custom.AuthenticationBackend',
     'django.contrib.auth.backends.ModelBackend',
 ]
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0

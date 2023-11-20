@@ -33,6 +33,14 @@
         "documentation": {}
     },
     {
+        "label": "AuthMiddlewareStack",
+        "importPath": "channels.auth",
+        "description": "channels.auth",
+        "isExtraImport": true,
+        "detail": "channels.auth",
+        "documentation": {}
+    },
+    {
         "label": "routing",
         "importPath": "message",
         "description": "message",
@@ -249,6 +257,118 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -265,115 +385,86 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "django.core.cache",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.db",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
+        "detail": "django.core.cache",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.core.cache",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "json",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.db",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "boto3",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.db",
+        "importPath": "boto3",
+        "description": "boto3",
+        "detail": "boto3",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "sleep",
+        "importPath": "asyncio",
+        "description": "asyncio",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Key",
+        "importPath": "boto3.dynamodb.conditions",
+        "description": "boto3.dynamodb.conditions",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "boto3.dynamodb.conditions",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AsyncWebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "channels.generic.websocket",
         "documentation": {}
     },
     {
@@ -393,12 +484,60 @@
         "documentation": {}
     },
     {
-        "label": "json",
+        "label": "rest_framework",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "importPath": "message.models",
+        "description": "message.models",
+        "isExtraImport": true,
+        "detail": "message.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -487,51 +626,11 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -720,14 +819,6 @@
         "documentation": {}
     },
     {
-        "label": "cache",
-        "importPath": "django.core.cache",
-        "description": "django.core.cache",
-        "isExtraImport": true,
-        "detail": "django.core.cache",
-        "documentation": {}
-    },
-    {
         "label": "authenticate",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
@@ -749,7 +840,7 @@
         "kind": 5,
         "importPath": "iot.asgi",
         "description": "iot.asgi",
-        "peekOfCode": "application = ProtocolTypeRouter({\n    \"http\": get_asgi_application(),\n    \"websocket\": URLRouter(routing.websocket_urlpatterns)\n})",
+        "peekOfCode": "application = ProtocolTypeRouter({\n    \"http\": get_asgi_application(),\n    # \"websocket\": URLRouter(routing.websocket_urlpatterns)\n    \"websocket\": AuthMiddlewareStack(\n        URLRouter(\n            routing.websocket_urlpatterns\n        )\n    )\n})",
         "detail": "iot.asgi",
         "documentation": {}
     },
@@ -830,7 +921,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -839,7 +930,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "ROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -848,7 +939,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -884,7 +975,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -893,7 +984,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -902,7 +993,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -911,7 +1002,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -920,7 +1011,16 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {",
+        "detail": "iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "iot.settings",
+        "description": "iot.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -956,7 +1056,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -965,7 +1065,7 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -983,7 +1083,34 @@
         "kind": 5,
         "importPath": "iot.settings",
         "description": "iot.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend', \n    'django.contrib.auth.backends.ModelBackend',\n]",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nREDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0",
+        "detail": "iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_HOST",
+        "kind": 5,
+        "importPath": "iot.settings",
+        "description": "iot.settings",
+        "peekOfCode": "REDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0",
+        "detail": "iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_PORT",
+        "kind": 5,
+        "importPath": "iot.settings",
+        "description": "iot.settings",
+        "peekOfCode": "REDIS_PORT = 6379\nREDIS_DB = 0",
+        "detail": "iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_DB",
+        "kind": 5,
+        "importPath": "iot.settings",
+        "description": "iot.settings",
+        "peekOfCode": "REDIS_DB = 0",
         "detail": "iot.settings",
         "documentation": {}
     },
@@ -992,7 +1119,7 @@
         "kind": 5,
         "importPath": "iot.urls",
         "description": "iot.urls",
-        "peekOfCode": "api_patterns = [\n    path(\"\", include(\"user.urls\")),\n]\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n]",
+        "peekOfCode": "api_patterns = [\n    path(\"\", include(\"user.urls\")),\n]\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),",
         "detail": "iot.urls",
         "documentation": {}
     },
@@ -1001,7 +1128,7 @@
         "kind": 5,
         "importPath": "iot.urls",
         "description": "iot.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"), name=\"swagger-ui\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),\n    path('', include(\"message.urls\")),\n]",
         "detail": "iot.urls",
         "documentation": {}
     },
@@ -1015,6 +1142,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "message.migrations.0001_initial",
+        "description": "message.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Cache',\n            fields=[\n                ('key', models.TextField(primary_key=True, serialize=False)),\n                ('value', models.TextField()),",
+        "detail": "message.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "MessageConfig",
         "kind": 6,
         "importPath": "message.apps",
@@ -1024,21 +1160,57 @@
         "documentation": {}
     },
     {
+        "label": "SensorConsumer",
+        "kind": 6,
+        "importPath": "message.consumers",
+        "description": "message.consumers",
+        "peekOfCode": "class SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:\n            timestamp_gmt7 = int(datetime.now().timestamp())+25190",
+        "detail": "message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "RelayConsumer",
+        "kind": 6,
+        "importPath": "message.consumers",
+        "description": "message.consumers",
+        "peekOfCode": "class RelayConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"relay\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name, \n            self.channel_name\n        )\n        self.accept()\n        try:",
+        "detail": "message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "dynamodb",
+        "kind": 5,
+        "importPath": "message.consumers",
+        "description": "message.consumers",
+        "peekOfCode": "dynamodb = boto3.resource('dynamodb')\ntable = dynamodb.Table('ESP32_AWSDB_db')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()",
+        "detail": "message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": "message.consumers",
+        "description": "message.consumers",
+        "peekOfCode": "table = dynamodb.Table('ESP32_AWSDB_db')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:",
+        "detail": "message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "kind": 6,
+        "importPath": "message.models",
+        "description": "message.models",
+        "peekOfCode": "class Cache(models.Model):\n    key = models.TextField(primary_key=True)\n    value = models.TextField()",
+        "detail": "message.models",
+        "documentation": {}
+    },
+    {
         "label": "websocket_urlpatterns",
         "kind": 5,
         "importPath": "message.routing",
         "description": "message.routing",
-        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n]",
+        "peekOfCode": "websocket_urlpatterns = [\n    # re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n    re_path(r'ws/sensor/', consumers.SensorConsumer.as_asgi()),\n    re_path(r'ws/relay/', consumers.RelayConsumer.as_asgi())\n]",
         "detail": "message.routing",
-        "documentation": {}
-    },
-    {
-        "label": "DHT11",
-        "kind": 6,
-        "importPath": "message.tunnel",
-        "description": "message.tunnel",
-        "peekOfCode": "class DHT11(WebsocketConsumer):\n    def connect(self):\n        self.room_group_name = \"room\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.room_group_name, \n            self.channel_name\n        )\n        self.accept()\n    def disconnect(self, close_code):\n        async_to_sync(self.channel_layer.group_discard)(",
-        "detail": "message.tunnel",
         "documentation": {}
     },
     {
@@ -1046,8 +1218,26 @@
         "kind": 5,
         "importPath": "message.urls",
         "description": "message.urls",
-        "peekOfCode": "urlpatterns = [\n]",
+        "peekOfCode": "urlpatterns = [\n    # path(\"\", views.index)\n    path('', index)\n]",
         "detail": "message.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "message.views",
+        "description": "message.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'base.html', context={'text': 'Hello world'})\ndef lobby(request):\n    return render(request, 'lobby.html')",
+        "detail": "message.views",
+        "documentation": {}
+    },
+    {
+        "label": "lobby",
+        "kind": 2,
+        "importPath": "message.views",
+        "description": "message.views",
+        "peekOfCode": "def lobby(request):\n    return render(request, 'lobby.html')",
+        "detail": "message.views",
         "documentation": {}
     },
     {

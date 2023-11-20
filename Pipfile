@@ -12,6 +12,7 @@ django-cors-headers = "*"
 daphne = "*"
 pyjwt = "*"
 drf-spectacular = "*"
+boto3 = "*"
 
 [dev-packages]
 

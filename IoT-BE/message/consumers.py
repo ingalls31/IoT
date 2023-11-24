@@ -10,10 +10,12 @@ from boto3.dynamodb.conditions import Key
 from channels.generic.websocket import AsyncWebsocketConsumer, WebsocketConsumer
 from asgiref.sync import async_to_sync
 from message.models import Cache
+from django.core.mail import EmailMessage
 from django.core.mail import send_mail
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('ESP32_AWSDB_db')
 client = boto3.client('iot-data')
+
 
 
 class SensorConsumer(AsyncWebsocketConsumer):
@@ -24,7 +26,7 @@ class SensorConsumer(AsyncWebsocketConsumer):
             self.channel_name
         )
         await self.accept()
-        while True:
+        while True:             
             timestamp_gmt7 = int(datetime.now().timestamp())+25190
             response = table.query(
                 KeyConditionExpression=Key("Timestamp").eq(timestamp_gmt7)
@@ -168,54 +170,10 @@ class AutoMLConsumer(WebsocketConsumer):
 
     def receive(self, text_data=None, bytes_data=None):
         try:
-            if int(text_data) == 0:
+            if int(text_data) in [0, 1]:
                 self.status = int(text_data)
                 Cache.objects.update(key='status', value=str(self.status))
-                self.job('0')
-            if int(text_data) == 1:
-                while True:
-                    model = joblib.load('RFC_model.joblib')
-                    CropDays = 24.0
-                    temperature = 40.0
-                    soilMoisture = 600.0
-                    humidity = 30.0
-                    features = pd.DataFrame({
-                        'CropType': [0],
-                        'CropDays': [CropDays],
-                        'SoilMoisture': [soilMoisture],
-                        'temperature': [temperature],
-                        'Humidity': [humidity]
-                    })
-                    predict = model.predict(features)
-                    if predict == 1:
-                        self.status = 1
-                        self.job('1')
-                        data_demo = {
-                            "CropDays": 24,
-                            "SoilMoisture": 600,
-                            "Temperature": 40,
-                            "Humidity": 30,
-                        }
-                        subject = "Báo cáo"
-                        message = f"""
-                        "Tuổi cây (CropDays)": {data_demo['CropDays']},
-                        "Độ ẩm đất (SoilMoisture)": {data_demo['SoilMoisture']},
-                        "Nhiệt độ (Temperature)": {data_demo['Temperature']},
-                        "Độ ẩm không khí (Humidity)": {data_demo['Humidity']},
-                        """
-                        from_email = "kainnoowa2303@gmail.com"
-                        recipient_list = ['kainnoowa2303@gmail.com']
-                        # email = EmailMessage(subject, message, from_email, to_email)
-                        # email.send()
-                        send_mail(subject, message, from_email,
-                                  recipient_list, fail_silently=False)
-                        sleep(5)
-                        self.job('0')
-                        sleep(5)
-                    else:
-                        self.status = 0
-                        self.job(str(self.status))
-                    sleep(60)
+                    
         except Exception as e:
             print(str(e))
         async_to_sync(self.channel_layer.group_send)(
@@ -227,7 +185,7 @@ class AutoMLConsumer(WebsocketConsumer):
         )
 
     def send(self, text_data=None, bytes_data=None, close=False):
-        return super().send(text_data, bytes_data, close)
+        super().send(text_data, bytes_data, close)
 
     def message(self, event):
         message = event["message"]

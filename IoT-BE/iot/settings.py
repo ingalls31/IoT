@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "channels",
     'user',
     'drf_spectacular',
-
 ]
 
 MIDDLEWARE = [

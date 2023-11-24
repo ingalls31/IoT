@@ -1,8 +1,8 @@
 # IoT
 # Backend
-$ pipenv install
-$ pipenv run python manage.py runserver
-$ pipenv run python auto.py 
+$ pipenv install <br>
+$ pipenv run python manage.py runserver <br>
+$ pipenv run python auto.py <br>
 # Frontend
-$ pnpm install 
-$ pnpm run dev
+$ pnpm install <br>
+$ pnpm run dev <br>

@@ -13,6 +13,10 @@ daphne = "*"
 pyjwt = "*"
 drf-spectacular = "*"
 boto3 = "*"
+joblib = "*"
+scikit-learn = "==1.2.2"
+pandas = "==1.5.3"
+schedule = "*"
 
 [dev-packages]
 

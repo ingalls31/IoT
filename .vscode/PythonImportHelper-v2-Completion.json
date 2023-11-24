@@ -761,31 +761,6 @@
         "documentation": {}
     },
     {
-        "label": "django.core.cache",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.core.cache",
-        "description": "django.core.cache",
-        "detail": "django.core.cache",
-        "documentation": {}
-    },
-    {
-        "label": "cache",
-        "importPath": "django.core.cache",
-        "description": "django.core.cache",
-        "isExtraImport": true,
-        "detail": "django.core.cache",
-        "documentation": {}
-    },
-    {
-        "label": "cache",
-        "importPath": "django.core.cache",
-        "description": "django.core.cache",
-        "isExtraImport": true,
-        "detail": "django.core.cache",
-        "documentation": {}
-    },
-    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -804,6 +779,42 @@
         "documentation": {}
     },
     {
+        "label": "schedule",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "schedule",
+        "description": "schedule",
+        "detail": "schedule",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -929,6 +940,54 @@
         "description": "asgiref.sync",
         "isExtraImport": true,
         "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "importPath": "message.models",
+        "description": "message.models",
+        "isExtraImport": true,
+        "detail": "message.models",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "importPath": "message.models",
+        "description": "message.models",
+        "isExtraImport": true,
+        "detail": "message.models",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
         "documentation": {}
     },
     {
@@ -986,22 +1045,6 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "Cache",
-        "importPath": "message.models",
-        "description": "message.models",
-        "isExtraImport": true,
-        "detail": "message.models",
-        "documentation": {}
-    },
-    {
-        "label": "Cache",
-        "importPath": "message.models",
-        "description": "message.models",
-        "isExtraImport": true,
-        "detail": "message.models",
         "documentation": {}
     },
     {
@@ -1523,27 +1566,19 @@
         "documentation": {}
     },
     {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
         "isExtraImport": true,
-        "detail": "django.core.mail",
+        "detail": "django.core.cache",
         "documentation": {}
     },
     {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
         "isExtraImport": true,
-        "detail": "django.core.mail",
-        "documentation": {}
-    },
-    {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
-        "isExtraImport": true,
-        "detail": "django.core.mail",
+        "detail": "django.core.cache",
         "documentation": {}
     },
     {
@@ -1569,42 +1604,6 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "schedule",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "schedule",
-        "description": "schedule",
-        "detail": "schedule",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "joblib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "joblib",
-        "description": "joblib",
-        "detail": "joblib",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -1855,7 +1854,7 @@
         "kind": 5,
         "importPath": "IoT.iot.settings",
         "description": "IoT.iot.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nREDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nREDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
         "detail": "IoT.iot.settings",
         "documentation": {}
     },
@@ -1864,7 +1863,7 @@
         "kind": 5,
         "importPath": "IoT.iot.settings",
         "description": "IoT.iot.settings",
-        "peekOfCode": "REDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0",
+        "peekOfCode": "REDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
         "detail": "IoT.iot.settings",
         "documentation": {}
     },
@@ -1873,7 +1872,7 @@
         "kind": 5,
         "importPath": "IoT.iot.settings",
         "description": "IoT.iot.settings",
-        "peekOfCode": "REDIS_PORT = 6379\nREDIS_DB = 0",
+        "peekOfCode": "REDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
         "detail": "IoT.iot.settings",
         "documentation": {}
     },
@@ -1882,7 +1881,61 @@
         "kind": 5,
         "importPath": "IoT.iot.settings",
         "description": "IoT.iot.settings",
-        "peekOfCode": "REDIS_DB = 0",
+        "peekOfCode": "REDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "IoT.iot.settings",
+        "description": "IoT.iot.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
         "detail": "IoT.iot.settings",
         "documentation": {}
     },
@@ -1945,7 +1998,16 @@
         "kind": 6,
         "importPath": "IoT.message.consumers",
         "description": "IoT.message.consumers",
-        "peekOfCode": "class RelayConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"relay\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name, \n            self.channel_name\n        )\n        self.accept()\n        try:",
+        "peekOfCode": "class RelayConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"relay\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
+        "detail": "IoT.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoMLConsumer",
+        "kind": 6,
+        "importPath": "IoT.message.consumers",
+        "description": "IoT.message.consumers",
+        "peekOfCode": "class AutoMLConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"ml\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
         "detail": "IoT.message.consumers",
         "documentation": {}
     },
@@ -1954,7 +2016,7 @@
         "kind": 5,
         "importPath": "IoT.message.consumers",
         "description": "IoT.message.consumers",
-        "peekOfCode": "dynamodb = boto3.resource('dynamodb')\ntable = dynamodb.Table('ESP32_AWSDB_db')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()",
+        "peekOfCode": "dynamodb = boto3.resource('dynamodb')\ntable = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )",
         "detail": "IoT.message.consumers",
         "documentation": {}
     },
@@ -1963,7 +2025,16 @@
         "kind": 5,
         "importPath": "IoT.message.consumers",
         "description": "IoT.message.consumers",
-        "peekOfCode": "table = dynamodb.Table('ESP32_AWSDB_db')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:",
+        "peekOfCode": "table = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()",
+        "detail": "IoT.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "IoT.message.consumers",
+        "description": "IoT.message.consumers",
+        "peekOfCode": "client = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:",
         "detail": "IoT.message.consumers",
         "documentation": {}
     },
@@ -1981,7 +2052,7 @@
         "kind": 5,
         "importPath": "IoT.message.routing",
         "description": "IoT.message.routing",
-        "peekOfCode": "websocket_urlpatterns = [\n    # re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n    re_path(r'ws/sensor/', consumers.SensorConsumer.as_asgi()),\n    re_path(r'ws/relay/', consumers.RelayConsumer.as_asgi())\n]",
+        "peekOfCode": "websocket_urlpatterns = [\n    # re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n    re_path(r'ws/sensor/', consumers.SensorConsumer.as_asgi()),\n    re_path(r'ws/relay/', consumers.RelayConsumer.as_asgi()),\n    re_path(r'ws/auto/', consumers.AutoMLConsumer.as_asgi())\n]",
         "detail": "IoT.message.routing",
         "documentation": {}
     },
@@ -2184,714 +2255,777 @@
         "documentation": {}
     },
     {
-        "label": "application",
-        "kind": 5,
-        "importPath": "iot.asgi",
-        "description": "iot.asgi",
-        "peekOfCode": "application = ProtocolTypeRouter({\n    \"http\": get_asgi_application(),\n    # \"websocket\": URLRouter(routing.websocket_urlpatterns)\n    \"websocket\": AuthMiddlewareStack(\n        URLRouter(\n            routing.websocket_urlpatterns\n        )\n    )\n})",
-        "detail": "iot.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "HeaderValidationMiddleware",
-        "kind": 6,
-        "importPath": "iot.custom",
-        "description": "iot.custom",
-        "peekOfCode": "class HeaderValidationMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n    def __call__(self, request):\n        try:\n            authorization = request.headers['Authorization']\n            account = jwts.decode(authorization)\n            print(account)\n            request.account = account\n        except Exception as e:",
-        "detail": "iot.custom",
-        "documentation": {}
-    },
-    {
-        "label": "AuthenticationBackend",
-        "kind": 6,
-        "importPath": "iot.custom",
-        "description": "iot.custom",
-        "peekOfCode": "class AuthenticationBackend(ModelBackend):\n    def authenticate(self, request, email=None, password=None):\n        try:\n            account = Account.objects.get(email=email)\n        except Account.DoesNotExist:\n            return None\n        if check_password(password, account.password):\n            return account\n        return None",
-        "detail": "iot.custom",
-        "documentation": {}
-    },
-    {
-        "label": "BASE_DIR",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-w_i+aybm5#1m^)_2hh5@9$m(8p1h&xp#454g9vrm=^1h$1-qd!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-w_i+aybm5#1m^)_2hh5@9$m(8p1h&xp#454g9vrm=^1h$1-qd!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",\n    'django.contrib.staticfiles',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "INSTALLED_APPS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",\n    'django.contrib.staticfiles',\n    'message',\n    \"rest_framework\",",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MIDDLEWARE",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    \"iot.custom.HeaderValidationMiddleware\",",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "CORS_ALLOW_ALL_ORIGINS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ROOT_URLCONF",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "ROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TEMPLATES",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "WSGI_APPLICATION",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'iot.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASES",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "AUTH_PASSWORD_VALIDATORS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LANGUAGE_CODE",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TIME_ZONE",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_I18N",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_TZ",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_AUTO_FIELD",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ASGI_APPLICATION",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "ASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}\nREST_FRAMEWORK = {",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "CHANNEL_LAYERS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "CHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}\nREST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "REST_FRAMEWORK",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TEMPLATES",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SPECTACULAR_SETTINGS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "SPECTACULAR_SETTINGS = {\n    \"TITLE\": \"IOT APIs\",\n    \"DESCRIPTION\": \"This is the IOT API.\",\n    \"VERSION\": \"3.0.0\",\n    \"CONTACT\": {\"email\": \"huy52670@gmail,ccom\"},\n    \"SERVERS\": [\n        {\"url\": \"http://localhost:8000\", \"description\": \"Localhost\"},\n    ],\n    \"APPEND_COMPONENTS\": {\n        \"securitySchemes\": {",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "AUTHENTICATION_BACKENDS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nREDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "REDIS_HOST",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "REDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "REDIS_PORT",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "REDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "REDIS_DB",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "REDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_BACKEND",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_PORT",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_USE_TLS",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST_USER",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST_PASSWORD",
-        "kind": 5,
-        "importPath": "iot.settings",
-        "description": "iot.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
-        "detail": "iot.settings",
-        "documentation": {}
-    },
-    {
-        "label": "api_patterns",
-        "kind": 5,
-        "importPath": "iot.urls",
-        "description": "iot.urls",
-        "peekOfCode": "api_patterns = [\n    path(\"\", include(\"user.urls\")),\n]\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),",
-        "detail": "iot.urls",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "iot.urls",
-        "description": "iot.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),\n    path('', include(\"message.urls\")),\n]",
-        "detail": "iot.urls",
-        "documentation": {}
-    },
-    {
-        "label": "application",
-        "kind": 5,
-        "importPath": "iot.wsgi",
-        "description": "iot.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
-        "detail": "iot.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "message.migrations.0001_initial",
-        "description": "message.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Cache',\n            fields=[\n                ('key', models.TextField(primary_key=True, serialize=False)),\n                ('value', models.TextField()),",
-        "detail": "message.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "MessageConfig",
-        "kind": 6,
-        "importPath": "message.apps",
-        "description": "message.apps",
-        "peekOfCode": "class MessageConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'message'",
-        "detail": "message.apps",
-        "documentation": {}
-    },
-    {
-        "label": "SensorConsumer",
-        "kind": 6,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "class SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:\n            timestamp_gmt7 = int(datetime.now().timestamp())+25190",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "RelayConsumer",
-        "kind": 6,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "class RelayConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"relay\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "AutoMLConsumer",
-        "kind": 6,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "class AutoMLConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"ml\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "dynamodb",
-        "kind": 5,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "dynamodb = boto3.resource('dynamodb')\ntable = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "table",
-        "kind": 5,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "table = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "client",
-        "kind": 5,
-        "importPath": "message.consumers",
-        "description": "message.consumers",
-        "peekOfCode": "client = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:",
-        "detail": "message.consumers",
-        "documentation": {}
-    },
-    {
-        "label": "Cache",
-        "kind": 6,
-        "importPath": "message.models",
-        "description": "message.models",
-        "peekOfCode": "class Cache(models.Model):\n    key = models.TextField(primary_key=True)\n    value = models.TextField()",
-        "detail": "message.models",
-        "documentation": {}
-    },
-    {
-        "label": "websocket_urlpatterns",
-        "kind": 5,
-        "importPath": "message.routing",
-        "description": "message.routing",
-        "peekOfCode": "websocket_urlpatterns = [\n    # re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n    re_path(r'ws/sensor/', consumers.SensorConsumer.as_asgi()),\n    re_path(r'ws/relay/', consumers.RelayConsumer.as_asgi()),\n    re_path(r'ws/auto/', consumers.AutoMLConsumer.as_asgi())\n]",
-        "detail": "message.routing",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "message.urls",
-        "description": "message.urls",
-        "peekOfCode": "urlpatterns = [\n    # path(\"\", views.index)\n    path('', index)\n]",
-        "detail": "message.urls",
-        "documentation": {}
-    },
-    {
-        "label": "index",
-        "kind": 2,
-        "importPath": "message.views",
-        "description": "message.views",
-        "peekOfCode": "def index(request):\n    return render(request, 'base.html', context={'text': 'Hello world'})\ndef lobby(request):\n    return render(request, 'lobby.html')",
-        "detail": "message.views",
-        "documentation": {}
-    },
-    {
-        "label": "lobby",
-        "kind": 2,
-        "importPath": "message.views",
-        "description": "message.views",
-        "peekOfCode": "def lobby(request):\n    return render(request, 'lobby.html')",
-        "detail": "message.views",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "user.migrations.0001_initial",
-        "description": "user.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('email', models.EmailField(max_length=254, primary_key=True, serialize=False, unique=True)),\n                ('password', models.CharField(max_length=32)),",
-        "detail": "user.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "user.migrations.0002_role",
-        "description": "user.migrations.0002_role",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Role',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),\n                ('name', models.CharField(max_length=255, null=True)),",
-        "detail": "user.migrations.0002_role",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "user.migrations.0003_account_roles",
-        "description": "user.migrations.0003_account_roles",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0002_role'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='account',\n            name='roles',\n            field=models.ManyToManyField(blank=True, to='user.role'),\n        ),",
-        "detail": "user.migrations.0003_account_roles",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "user.migrations.0004_verifytoken_jwttoken",
-        "description": "user.migrations.0004_verifytoken_jwttoken",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0003_account_roles'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='VerifyToken',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('token', models.CharField(blank=True, max_length=8, null=True)),",
-        "detail": "user.migrations.0004_verifytoken_jwttoken",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
-        "description": "user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0004_verifytoken_jwttoken'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='verifytoken',\n            old_name='user',\n            new_name='account',\n        ),",
-        "detail": "user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "UserConfig",
-        "kind": 6,
-        "importPath": "user.apps",
-        "description": "user.apps",
-        "peekOfCode": "class UserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user'",
-        "detail": "user.apps",
-        "documentation": {}
-    },
-    {
-        "label": "get_access_token",
-        "kind": 2,
-        "importPath": "user.jwts",
-        "description": "user.jwts",
-        "peekOfCode": "def get_access_token(payload):\n    return jwt.encode(\n        {\"exp\": datetime.utcnow() + timedelta(days=30), **payload},\n        settings.SECRET_KEY,\n        algorithm=\"HS256\"\n    )\ndef decode(authorization):\n    if not authorization:\n        return None\n    token = authorization[7:]",
-        "detail": "user.jwts",
-        "documentation": {}
-    },
-    {
-        "label": "decode",
-        "kind": 2,
-        "importPath": "user.jwts",
-        "description": "user.jwts",
-        "peekOfCode": "def decode(authorization):\n    if not authorization:\n        return None\n    token = authorization[7:]\n    decoded = jwt.decode(token, key=settings.SECRET_KEY, algorithms=\"HS256\")\n    try:\n        return Account.objects.get(email=decoded[\"email\"])\n    except Exception:\n        return None",
-        "detail": "user.jwts",
-        "documentation": {}
-    },
-    {
-        "label": "AccountManager",
-        "kind": 6,
-        "importPath": "user.models",
-        "description": "user.models",
-        "peekOfCode": "class AccountManager(models.Manager):\n    def create_account(self, email, password=None, **extra_fields):\n        if not email:\n            raise ValueError(\"Email must be set.\")\n        if self.filter(email=email).exists():\n            raise ValueError(\"Email already exists.\")\n        account = Account.objects.create(\n            email=email,\n            password=make_password(password), \n        )",
-        "detail": "user.models",
-        "documentation": {}
-    },
-    {
-        "label": "Role",
-        "kind": 6,
-        "importPath": "user.models",
-        "description": "user.models",
-        "peekOfCode": "class Role(models.Model): \n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    name = models.CharField(max_length=255, null=True)\n    def __str__(self) -> str:\n        return self.name\n    class Meta: \n        db_table = 'role'\nclass Account(models.Model):\n    email = models.EmailField(primary_key=True, unique=True)\n    password = models.CharField(max_length=32)",
-        "detail": "user.models",
-        "documentation": {}
-    },
-    {
-        "label": "Account",
-        "kind": 6,
-        "importPath": "user.models",
-        "description": "user.models",
-        "peekOfCode": "class Account(models.Model):\n    email = models.EmailField(primary_key=True, unique=True)\n    password = models.CharField(max_length=32)\n    roles = models.ManyToManyField(Role, blank=True)\n    objects = AccountManager()\n    class Meta:\n        db_table = 'account' \nclass VerifyToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True",
-        "detail": "user.models",
-        "documentation": {}
-    },
-    {
-        "label": "VerifyToken",
-        "kind": 6,
-        "importPath": "user.models",
-        "description": "user.models",
-        "peekOfCode": "class VerifyToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True\n    )\n    token = models.CharField(max_length=8, null=True, blank=True)\n    class Meta:\n        db_table = 'verify_token'\nclass JwtToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True",
-        "detail": "user.models",
-        "documentation": {}
-    },
-    {
-        "label": "JwtToken",
-        "kind": 6,
-        "importPath": "user.models",
-        "description": "user.models",
-        "peekOfCode": "class JwtToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True\n    )\n    access = models.TextField()\n    class Meta: \n        db_table = 'jwt_token'",
-        "detail": "user.models",
-        "documentation": {}
-    },
-    {
-        "label": "AccountSerializer",
-        "kind": 6,
-        "importPath": "user.serializers",
-        "description": "user.serializers",
-        "peekOfCode": "class AccountSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    password = serializers.CharField(max_length=100)\nclass EmailSerializer(serializers.Serializer):\n    email = serializers.EmailField()",
-        "detail": "user.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "EmailSerializer",
-        "kind": 6,
-        "importPath": "user.serializers",
-        "description": "user.serializers",
-        "peekOfCode": "class EmailSerializer(serializers.Serializer):\n    email = serializers.EmailField()",
-        "detail": "user.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "user.urls",
-        "description": "user.urls",
-        "peekOfCode": "router = DefaultRouter() \nrouter.register(r\"account\", AccountController, basename=\"account\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
-        "detail": "user.urls",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "user.urls",
-        "description": "user.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
-        "detail": "user.urls",
-        "documentation": {}
-    },
-    {
-        "label": "AccountController",
-        "kind": 6,
-        "importPath": "user.views",
-        "description": "user.views",
-        "peekOfCode": "class AccountController(ViewSet):\n    parser_classes = (JSONParser, MultiPartParser)\n    serializer_class = AccountSerializer\n    @extend_schema(\n        request=AccountSerializer\n    )\n    @action(detail=False, methods=['POST'])\n    def register(self, request): \n        print(request.data)\n        data = AccountSerializer(data=request.data)",
-        "detail": "user.views",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "manage",
-        "description": "manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iot.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
-        "detail": "manage",
-        "documentation": {}
-    },
-    {
         "label": "sudo_placement",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def sudo_placement():\n    print(\"Get ready for Sudo Placement at Geeksforgeeks\")\ndef good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "good_luck",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "work",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "bedtime",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)\n# # After every hour geeks() is called.\n# schedule.every().hour.do(geeks)",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "geeks",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)\n# # After every hour geeks() is called.\n# schedule.every().hour.do(geeks)\n# # Every day at 12am or 00:00 time bedtime() is called.\n# schedule.every().day.at(\"00:00\").do(bedtime)",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "mma",
         "kind": 2,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "def mma():\n    global pre\n    while True:\n        # Checks whether a scheduled task\n        # is pending to run or not\n        schedule.run_pending()\n        print(pre)\n        time.sleep(1)\n        pre = 0\nmma()",
-        "detail": "test",
+        "detail": "IoT.test",
         "documentation": {}
     },
     {
         "label": "pre",
         "kind": 5,
-        "importPath": "test",
-        "description": "test",
+        "importPath": "IoT.test",
+        "description": "IoT.test",
         "peekOfCode": "pre = 0\ndef sudo_placement():\n    print(\"Get ready for Sudo Placement at Geeksforgeeks\")\ndef good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():",
-        "detail": "test",
+        "detail": "IoT.test",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.asgi",
+        "description": "IoT-BE.iot.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter({\n    \"http\": get_asgi_application(),\n    # \"websocket\": URLRouter(routing.websocket_urlpatterns)\n    \"websocket\": AuthMiddlewareStack(\n        URLRouter(\n            routing.websocket_urlpatterns\n        )\n    )\n})",
+        "detail": "IoT-BE.iot.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "HeaderValidationMiddleware",
+        "kind": 6,
+        "importPath": "IoT-BE.iot.custom",
+        "description": "IoT-BE.iot.custom",
+        "peekOfCode": "class HeaderValidationMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n    def __call__(self, request):\n        try:\n            authorization = request.headers['Authorization']\n            account = jwts.decode(authorization)\n            print(account)\n            request.account = account\n        except Exception as e:",
+        "detail": "IoT-BE.iot.custom",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationBackend",
+        "kind": 6,
+        "importPath": "IoT-BE.iot.custom",
+        "description": "IoT-BE.iot.custom",
+        "peekOfCode": "class AuthenticationBackend(ModelBackend):\n    def authenticate(self, request, email=None, password=None):\n        try:\n            account = Account.objects.get(email=email)\n        except Account.DoesNotExist:\n            return None\n        if check_password(password, account.password):\n            return account\n        return None",
+        "detail": "IoT-BE.iot.custom",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-w_i+aybm5#1m^)_2hh5@9$m(8p1h&xp#454g9vrm=^1h$1-qd!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-w_i+aybm5#1m^)_2hh5@9$m(8p1h&xp#454g9vrm=^1h$1-qd!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",\n    'django.contrib.staticfiles',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"daphne\",\n    'django.contrib.staticfiles',\n    'message',\n    \"rest_framework\",",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    \"iot.custom.HeaderValidationMiddleware\",",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "ROOT_URLCONF = 'iot.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR, \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'iot.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR.joinpath('static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "ASGI_APPLICATION = 'iot.asgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}\nREST_FRAMEWORK = {",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [('127.0.0.1', 6379)],\n        },\n    },\n}\nREST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [BASE_DIR, \"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SPECTACULAR_SETTINGS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "SPECTACULAR_SETTINGS = {\n    \"TITLE\": \"IOT APIs\",\n    \"DESCRIPTION\": \"This is the IOT API.\",\n    \"VERSION\": \"3.0.0\",\n    \"CONTACT\": {\"email\": \"huy52670@gmail,ccom\"},\n    \"SERVERS\": [\n        {\"url\": \"http://localhost:8000\", \"description\": \"Localhost\"},\n    ],\n    \"APPEND_COMPONENTS\": {\n        \"securitySchemes\": {",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'iot.custom.AuthenticationBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nREDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_HOST",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "REDIS_HOST = 'localhost'\nREDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_PORT",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "REDIS_PORT = 6379\nREDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REDIS_DB",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "REDIS_DB = 0\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'kainnoowa2303@gmail.com'\nEMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.settings",
+        "description": "IoT-BE.iot.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ckxj kstm xgyw hhht'",
+        "detail": "IoT-BE.iot.settings",
+        "documentation": {}
+    },
+    {
+        "label": "api_patterns",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.urls",
+        "description": "IoT-BE.iot.urls",
+        "peekOfCode": "api_patterns = [\n    path(\"\", include(\"user.urls\")),\n]\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),",
+        "detail": "IoT-BE.iot.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.urls",
+        "description": "IoT-BE.iot.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"api/\", include(api_patterns)),\n    path(\"message/\", include(\"message.urls\")),\n    path(\"schema/\", SpectacularAPIView.as_view(), name=\"schema\"),\n    path(\"swagger/\", SpectacularSwaggerView.as_view(url_name=\"schema\"),\n         name=\"swagger-ui\"),\n    path('', include(\"message.urls\")),\n]",
+        "detail": "IoT-BE.iot.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "IoT-BE.iot.wsgi",
+        "description": "IoT-BE.iot.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "IoT-BE.iot.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.message.migrations.0001_initial",
+        "description": "IoT-BE.message.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Cache',\n            fields=[\n                ('key', models.TextField(primary_key=True, serialize=False)),\n                ('value', models.TextField()),",
+        "detail": "IoT-BE.message.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MessageConfig",
+        "kind": 6,
+        "importPath": "IoT-BE.message.apps",
+        "description": "IoT-BE.message.apps",
+        "peekOfCode": "class MessageConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'message'",
+        "detail": "IoT-BE.message.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SensorConsumer",
+        "kind": 6,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "class SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:\n            timestamp_gmt7 = int(datetime.now().timestamp())+25190",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "RelayConsumer",
+        "kind": 6,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "class RelayConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"relay\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoMLConsumer",
+        "kind": 6,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "class AutoMLConsumer(WebsocketConsumer):\n    status = 0\n    def connect(self):\n        self.relay_group_name = \"ml\"\n        async_to_sync(self.channel_layer.group_add)(\n            self.relay_group_name,\n            self.channel_name\n        )\n        self.accept()\n        try:",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "dynamodb",
+        "kind": 5,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "dynamodb = boto3.resource('dynamodb')\ntable = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "table = dynamodb.Table('ESP32_AWSDB_db')\nclient = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "IoT-BE.message.consumers",
+        "description": "IoT-BE.message.consumers",
+        "peekOfCode": "client = boto3.client('iot-data')\nclass SensorConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.sensors_group_name = 'sensor_group'\n        await self.channel_layer.group_add(\n            self.sensors_group_name,\n            self.channel_name\n        )\n        await self.accept()\n        while True:",
+        "detail": "IoT-BE.message.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "kind": 6,
+        "importPath": "IoT-BE.message.models",
+        "description": "IoT-BE.message.models",
+        "peekOfCode": "class Cache(models.Model):\n    key = models.TextField(primary_key=True)\n    value = models.TextField()",
+        "detail": "IoT-BE.message.models",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "kind": 5,
+        "importPath": "IoT-BE.message.routing",
+        "description": "IoT-BE.message.routing",
+        "peekOfCode": "websocket_urlpatterns = [\n    # re_path(r\"ws/dht11/$\", tunnel.DHT11.as_asgi()),\n    re_path(r'ws/sensor/', consumers.SensorConsumer.as_asgi()),\n    re_path(r'ws/relay/', consumers.RelayConsumer.as_asgi()),\n    re_path(r'ws/auto/', consumers.AutoMLConsumer.as_asgi())\n]",
+        "detail": "IoT-BE.message.routing",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "IoT-BE.message.urls",
+        "description": "IoT-BE.message.urls",
+        "peekOfCode": "urlpatterns = [\n    # path(\"\", views.index)\n    path('', index)\n]",
+        "detail": "IoT-BE.message.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "IoT-BE.message.views",
+        "description": "IoT-BE.message.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'base.html', context={'text': 'Hello world'})\ndef lobby(request):\n    return render(request, 'lobby.html')",
+        "detail": "IoT-BE.message.views",
+        "documentation": {}
+    },
+    {
+        "label": "lobby",
+        "kind": 2,
+        "importPath": "IoT-BE.message.views",
+        "description": "IoT-BE.message.views",
+        "peekOfCode": "def lobby(request):\n    return render(request, 'lobby.html')",
+        "detail": "IoT-BE.message.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.user.migrations.0001_initial",
+        "description": "IoT-BE.user.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('email', models.EmailField(max_length=254, primary_key=True, serialize=False, unique=True)),\n                ('password', models.CharField(max_length=32)),",
+        "detail": "IoT-BE.user.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.user.migrations.0002_role",
+        "description": "IoT-BE.user.migrations.0002_role",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Role',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),\n                ('name', models.CharField(max_length=255, null=True)),",
+        "detail": "IoT-BE.user.migrations.0002_role",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.user.migrations.0003_account_roles",
+        "description": "IoT-BE.user.migrations.0003_account_roles",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0002_role'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='account',\n            name='roles',\n            field=models.ManyToManyField(blank=True, to='user.role'),\n        ),",
+        "detail": "IoT-BE.user.migrations.0003_account_roles",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.user.migrations.0004_verifytoken_jwttoken",
+        "description": "IoT-BE.user.migrations.0004_verifytoken_jwttoken",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0003_account_roles'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='VerifyToken',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('token', models.CharField(blank=True, max_length=8, null=True)),",
+        "detail": "IoT-BE.user.migrations.0004_verifytoken_jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "IoT-BE.user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
+        "description": "IoT-BE.user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0004_verifytoken_jwttoken'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='verifytoken',\n            old_name='user',\n            new_name='account',\n        ),",
+        "detail": "IoT-BE.user.migrations.0005_rename_user_verifytoken_account_remove_jwttoken_user_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "IoT-BE.user.apps",
+        "description": "IoT-BE.user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user'",
+        "detail": "IoT-BE.user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "get_access_token",
+        "kind": 2,
+        "importPath": "IoT-BE.user.jwts",
+        "description": "IoT-BE.user.jwts",
+        "peekOfCode": "def get_access_token(payload):\n    return jwt.encode(\n        {\"exp\": datetime.utcnow() + timedelta(days=30), **payload},\n        settings.SECRET_KEY,\n        algorithm=\"HS256\"\n    )\ndef decode(authorization):\n    if not authorization:\n        return None\n    token = authorization[7:]",
+        "detail": "IoT-BE.user.jwts",
+        "documentation": {}
+    },
+    {
+        "label": "decode",
+        "kind": 2,
+        "importPath": "IoT-BE.user.jwts",
+        "description": "IoT-BE.user.jwts",
+        "peekOfCode": "def decode(authorization):\n    if not authorization:\n        return None\n    token = authorization[7:]\n    decoded = jwt.decode(token, key=settings.SECRET_KEY, algorithms=\"HS256\")\n    try:\n        return Account.objects.get(email=decoded[\"email\"])\n    except Exception:\n        return None",
+        "detail": "IoT-BE.user.jwts",
+        "documentation": {}
+    },
+    {
+        "label": "AccountManager",
+        "kind": 6,
+        "importPath": "IoT-BE.user.models",
+        "description": "IoT-BE.user.models",
+        "peekOfCode": "class AccountManager(models.Manager):\n    def create_account(self, email, password=None, **extra_fields):\n        if not email:\n            raise ValueError(\"Email must be set.\")\n        if self.filter(email=email).exists():\n            raise ValueError(\"Email already exists.\")\n        account = Account.objects.create(\n            email=email,\n            password=make_password(password), \n        )",
+        "detail": "IoT-BE.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "IoT-BE.user.models",
+        "description": "IoT-BE.user.models",
+        "peekOfCode": "class Role(models.Model): \n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    name = models.CharField(max_length=255, null=True)\n    def __str__(self) -> str:\n        return self.name\n    class Meta: \n        db_table = 'role'\nclass Account(models.Model):\n    email = models.EmailField(primary_key=True, unique=True)\n    password = models.CharField(max_length=32)",
+        "detail": "IoT-BE.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "IoT-BE.user.models",
+        "description": "IoT-BE.user.models",
+        "peekOfCode": "class Account(models.Model):\n    email = models.EmailField(primary_key=True, unique=True)\n    password = models.CharField(max_length=32)\n    roles = models.ManyToManyField(Role, blank=True)\n    objects = AccountManager()\n    class Meta:\n        db_table = 'account' \nclass VerifyToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True",
+        "detail": "IoT-BE.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyToken",
+        "kind": 6,
+        "importPath": "IoT-BE.user.models",
+        "description": "IoT-BE.user.models",
+        "peekOfCode": "class VerifyToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True\n    )\n    token = models.CharField(max_length=8, null=True, blank=True)\n    class Meta:\n        db_table = 'verify_token'\nclass JwtToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True",
+        "detail": "IoT-BE.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "JwtToken",
+        "kind": 6,
+        "importPath": "IoT-BE.user.models",
+        "description": "IoT-BE.user.models",
+        "peekOfCode": "class JwtToken(models.Model):\n    account = models.OneToOneField(\n        Account, on_delete=models.CASCADE, null=True\n    )\n    access = models.TextField()\n    class Meta: \n        db_table = 'jwt_token'",
+        "detail": "IoT-BE.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "AccountSerializer",
+        "kind": 6,
+        "importPath": "IoT-BE.user.serializers",
+        "description": "IoT-BE.user.serializers",
+        "peekOfCode": "class AccountSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    password = serializers.CharField(max_length=100)\nclass EmailSerializer(serializers.Serializer):\n    email = serializers.EmailField()",
+        "detail": "IoT-BE.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EmailSerializer",
+        "kind": 6,
+        "importPath": "IoT-BE.user.serializers",
+        "description": "IoT-BE.user.serializers",
+        "peekOfCode": "class EmailSerializer(serializers.Serializer):\n    email = serializers.EmailField()",
+        "detail": "IoT-BE.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "IoT-BE.user.urls",
+        "description": "IoT-BE.user.urls",
+        "peekOfCode": "router = DefaultRouter() \nrouter.register(r\"account\", AccountController, basename=\"account\")\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "IoT-BE.user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "IoT-BE.user.urls",
+        "description": "IoT-BE.user.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "detail": "IoT-BE.user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AccountController",
+        "kind": 6,
+        "importPath": "IoT-BE.user.views",
+        "description": "IoT-BE.user.views",
+        "peekOfCode": "class AccountController(ViewSet):\n    parser_classes = (JSONParser, MultiPartParser)\n    serializer_class = AccountSerializer\n    @extend_schema(\n        request=AccountSerializer\n    )\n    @action(detail=False, methods=['POST'])\n    def register(self, request): \n        print(request.data)\n        data = AccountSerializer(data=request.data)",
+        "detail": "IoT-BE.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "IoT-BE.manage",
+        "description": "IoT-BE.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iot.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "IoT-BE.manage",
+        "documentation": {}
+    },
+    {
+        "label": "sudo_placement",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def sudo_placement():\n    print(\"Get ready for Sudo Placement at Geeksforgeeks\")\ndef good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "good_luck",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "work",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "bedtime",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)\n# # After every hour geeks() is called.\n# schedule.every().hour.do(geeks)",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "geeks",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def geeks():\n    pre = 1\n    print(\"Shaurya says Geeksforgeeks\")\n# Task scheduling\n# After every 10mins geeks() is called.\nschedule.every(1).minutes.do(geeks)\n# # After every hour geeks() is called.\n# schedule.every().hour.do(geeks)\n# # Every day at 12am or 00:00 time bedtime() is called.\n# schedule.every().day.at(\"00:00\").do(bedtime)",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "mma",
+        "kind": 2,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "def mma():\n    global pre\n    while True:\n        # Checks whether a scheduled task\n        # is pending to run or not\n        schedule.run_pending()\n        print(pre)\n        time.sleep(1)\n        pre = 0\nmma()",
+        "detail": "IoT-BE.test",
+        "documentation": {}
+    },
+    {
+        "label": "pre",
+        "kind": 5,
+        "importPath": "IoT-BE.test",
+        "description": "IoT-BE.test",
+        "peekOfCode": "pre = 0\ndef sudo_placement():\n    print(\"Get ready for Sudo Placement at Geeksforgeeks\")\ndef good_luck():\n    print(\"Good Luck for Test\")\ndef work():\n    print(\"Study and work hard\")\ndef bedtime():\n    print(\"It is bed time go rest\")\ndef geeks():",
+        "detail": "IoT-BE.test",
         "documentation": {}
     }
 ]

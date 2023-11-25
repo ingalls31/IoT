@@ -10,11 +10,11 @@ django.setup()
 
 from message.models import Cache
 from django.core.mail import EmailMessage
-from django.core.mail import send_mail
 
    
 while True:
-    while Cache.objects.get(key='status').value == '1':
+    while Cache.objects.get(key='auto').value == '1':
+        print("autorun")
         model = joblib.load('RFC_model.joblib')
         CropDays = 24.0
         temperature = 40.0

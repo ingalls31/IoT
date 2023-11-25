@@ -13,7 +13,8 @@ export const BlogShowGraph = () => {
   const [colorBox, setColorBox] = useState('#1F2A40')
   const [status1, setStatus1] = useState(0)
   const [status2, setStatus2] = useState(0)
-  const socketRef = useRef(null);
+  const socketRef1 = useRef(null);
+  const socketRef2 = useRef(null);
   const reconnectInterval = useRef(1000); 
   const [manualMode, setManualMode] = useState(false);
   const [autoMode, setAutoMode] = useState(false);
@@ -49,7 +50,7 @@ export const BlogShowGraph = () => {
   useEffect(() => {
     const connectWebSocket = () => {
       const socket = new WebSocket('ws://localhost:8000/ws/relay/');
-      socketRef.current = socket;
+      socketRef1.current = socket;
 
       socket.onopen = () => {
         console.log('WebSocket manual connected');
@@ -58,7 +59,7 @@ export const BlogShowGraph = () => {
       socket.onmessage = (e) => {
         const message = JSON.parse(e.data);
         setStatus1(Number(message));
-        console.log(message);
+        console.log('status1', message);
       };
 
       socket.onclose = () => {
@@ -73,8 +74,8 @@ export const BlogShowGraph = () => {
     connectWebSocket(); // Initial connection
 
     return () => {
-      if (socketRef.current) {
-        socketRef.current.close();
+      if (socketRef1.current) {
+        socketRef1.current.close();
       }
     };
     }, 
@@ -82,7 +83,7 @@ export const BlogShowGraph = () => {
   useEffect(() => {
     const connectWebSocket = () => {
       const socket = new WebSocket('ws://localhost:8000/ws/auto/');
-      socketRef.current = socket;
+      socketRef2.current = socket;
 
       socket.onopen = () => {
         console.log('WebSocket auto connected');
@@ -91,7 +92,7 @@ export const BlogShowGraph = () => {
       socket.onmessage = (e) => {
         const message = JSON.parse(e.data);
         setStatus2(Number(message));
-        console.log(message);
+        console.log('status2', message);
       };
 
       socket.onclose = () => {
@@ -106,32 +107,47 @@ export const BlogShowGraph = () => {
     connectWebSocket(); // Initial connection
 
     return () => {
-      if (socketRef.current) {
-        socketRef.current.close();
+      if (socketRef2.current) {
+        socketRef2.current.close();
       }
     };
-    }, [])
+  }, [])
     
 
-  const sendMessage = (message) => {
-    if (socketRef.current) {
-      socketRef.current.send(message);
+  const sendMessage1 = (message) => {
+    if (socketRef1.current) {
+      socketRef1.current.send(message);
+    } else {
+      console.error('Socket is not initialized');
+    }
+  };
+  const sendMessage2 = (message) => {
+    if (socketRef2.current) {
+      socketRef2.current.send(message);
     } else {
       console.error('Socket is not initialized');
     }
   };
   const handleChangeManual = (event: React.ChangeEvent<HTMLInputElement>) => {
     const myMessage = 1 - status1;
+    if(status1 === 0){
+      setStatus2(0)
+      sendMessage2(0)
+    }
     setStatus1(1 - status1);
     setManualMode(!manualMode);
-    sendMessage(myMessage);
+    sendMessage1(myMessage);
   };
 
   const handleChangeAuto = (event: React.ChangeEvent<HTMLInputElement>) => {
     const myMessage = 1 - status2;
+    if(status2 === 0){
+      setStatus1(0)
+      sendMessage1(0)
+    }
     setStatus2(1 - status2);
     setAutoMode(!autoMode);
-    sendMessage(myMessage);
+    sendMessage2(myMessage);
   };
 
 
@@ -181,21 +197,17 @@ export const BlogShowGraph = () => {
             alignItems: 'center',
             justifyContent: 'center'
           }}>
-            {autoMode ?
-              <FormControlLabel
-                value="top"
-                control={<Switch disabled/>}
-                label={<Typography variant="h6" fontWeight="600">Thủ Công</Typography>}
-                labelPlacement="top"
-              />
-              :
-              <FormControlLabel
-                value="top"
-                control={<Switch onChange={handleChangeManual}/>}
-                label={<Typography variant="h6" fontWeight="600">Thủ Công</Typography>}
-                labelPlacement="top"
-              />
-            }
+            <FormControlLabel
+              value="top"
+              control={
+                <Switch
+                  checked={status1 == 1 ? true : false} 
+                  onChange={handleChangeManual}
+                />
+              }
+              label={<Typography variant="h6" fontWeight="600">Thủ Công</Typography>}
+              labelPlacement="top"
+            />
           </Box>
           <Box sx={{
             gridColumn: 'span 3',
@@ -204,21 +216,17 @@ export const BlogShowGraph = () => {
             alignItems: 'center',
             justifyContent: 'center'
           }}>
-            {manualMode ?
-              <FormControlLabel
-                value="top"
-                control={<Switch disabled/>}
-                label={<Typography variant="h6" fontWeight="600">Tự Động</Typography>}
-                labelPlacement="top"
-              />
-              :
-              <FormControlLabel
-                value="top"
-                control={<Switch onChange={handleChangeAuto}/>}
-                label={<Typography variant="h6" fontWeight="600">Tự Động</Typography>}
-                labelPlacement="top"
-              />
-            }
+            <FormControlLabel
+              value="top"
+              control={
+                <Switch
+                  checked={status2 == 1 ? true : false} 
+                  onChange={handleChangeAuto}
+                />
+              }
+              label={<Typography variant="h6" fontWeight="600">Tự Động</Typography>}
+              labelPlacement="top"
+            />
           </Box>
           <Box sx={{
             gridColumn: 'span 6',

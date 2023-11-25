@@ -67,9 +67,9 @@ class RelayConsumer(WebsocketConsumer):
         )
         self.accept()
         try:
-            cache_status = Cache.objects.get(key="status")
+            cache_status = Cache.objects.get(key='relay')
         except:
-            cache_status = Cache.objects.create(key='status', value=0)
+            cache_status = Cache.objects.create(key='relay', value=0)
         self.status = int(cache_status.value)
         async_to_sync(self.channel_layer.group_send)(
             self.relay_group_name,
@@ -90,14 +90,15 @@ class RelayConsumer(WebsocketConsumer):
         try:
             if int(text_data) in [0, 1]:
                 self.status = int(text_data)
-                Cache.objects.update(key='status', value=str(self.status))
+                cache = Cache.objects.get(key='relay')
+                cache.value = str(self.status)
+                cache.save()
                 client.publish(
                     topic='ESP32_AWSDB/sub',
                     qos=1,
                     payload=json.dumps({"message": str(self.status)})
                 )
                 if self.status == 1:
-                    print('pass')
                     data_demo = {
                         "CropDays": 10,
                         "SoilMoisture": 400,
@@ -112,11 +113,9 @@ class RelayConsumer(WebsocketConsumer):
                     "Độ ẩm không khí (Humidity)": {data_demo['Humidity']},
                     """
                     from_email = "kainnoowa2303@gmail.com"
-                    recipient_list = ['kainnoowa2303@gmail.com']
-                    # email = EmailMessage(subject, message, from_email, to_email)
-                    # email.send()
-                    send_mail(subject, message, from_email,
-                              recipient_list, fail_silently=False)
+                    recipient_list = ['huy52670@gmail.com']
+                    email = EmailMessage(subject, message, from_email, recipient_list)
+                    email.send()
         except Exception as e:
             print(str(e))
         async_to_sync(self.channel_layer.group_send)(
@@ -150,9 +149,9 @@ class AutoMLConsumer(WebsocketConsumer):
         )
         self.accept()
         try:
-            cache_status = Cache.objects.get(key="status")
+            cache_status = Cache.objects.get(key="auto")
         except:
-            cache_status = Cache.objects.create(key='status', value=0)
+            cache_status = Cache.objects.create(key='auto', value=0)
         self.status = int(cache_status.value)
         async_to_sync(self.channel_layer.group_send)(
             self.relay_group_name,
@@ -172,8 +171,10 @@ class AutoMLConsumer(WebsocketConsumer):
         try:
             if int(text_data) in [0, 1]:
                 self.status = int(text_data)
-                Cache.objects.update(key='status', value=str(self.status))
-                    
+                cache = Cache.objects.get(key='auto')
+                cache.value = str(self.status)
+                cache.save()
+                print(text_data)
         except Exception as e:
             print(str(e))
         async_to_sync(self.channel_layer.group_send)(

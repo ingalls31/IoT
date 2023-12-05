@@ -1,14 +1,19 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { Box, Button, Typography, useTheme } from "@mui/material";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { Box, Typography, useTheme } from "@mui/material";
 import ThermostatIcon from '@mui/icons-material/Thermostat';
 import OpacityIcon from '@mui/icons-material/Opacity';
 import ParkIcon from '@mui/icons-material/Park';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import { Console } from 'console';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
+import i18n from "i18next";
 export const BlogShowGraph = () => {
   const [data, setData] = useState<{ time: string, temp: number, humi: number}[]>([]);
+  const [water, setWater] = useState<{ time: string, mlwater: number}[]>([]);
   const theme = useTheme()
   const [colorBox, setColorBox] = useState('#1F2A40')
   const [status1, setStatus1] = useState(0)
@@ -18,6 +23,7 @@ export const BlogShowGraph = () => {
   const reconnectInterval = useRef(1000); 
   const [manualMode, setManualMode] = useState(false);
   const [autoMode, setAutoMode] = useState(false);
+  const [crop, setCrop] = useState('');
   useEffect(() => {
     if (theme.palette.mode === 'dark'){
       setColorBox('#1F2A40')
@@ -34,13 +40,28 @@ export const BlogShowGraph = () => {
       document.getElementById('humid').innerText = djangoData.humidity
       document.getElementById('soil').innerText = djangoData.soilmoisture
       setData((prevData) => {
-        const newData = [...prevData, {time: new Date().toLocaleTimeString(), temp: djangoData.temperature, humi: djangoData.humidity}];
-        console.log(newData)
+        const newData = [...prevData, {time: djangoData.time, temp: djangoData.temperature, humi: djangoData.humidity}];
         if (newData.length > 10) {
           return newData.slice(newData.length - 10);
         }
         return newData;
       });
+    }
+    return () => {
+      socket.close();
+    };
+  }, []);
+
+  useEffect(() => {
+    const socket = new WebSocket('ws://localhost:8000/ws/water/');
+    socket.onmessage = function(e){
+      const waterdata = JSON.parse(e.data);
+      const result: { time: string, mlwater: number }[] = Object.entries(waterdata['DayWater']).map(([key, value]) => ({
+        'time': value as string,
+        'mlwater': Number(waterdata['Water'][key])
+      }));
+      setWater(result);
+      console.log(waterdata);
     }
     return () => {
       socket.close();
@@ -140,7 +161,7 @@ export const BlogShowGraph = () => {
   };
 
   const handleChangeAuto = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const myMessage = 1 - status2;
+    const myMessage = String(1 - status2)+" "+crop;
     if(status2 === 0){
       setStatus1(0)
       sendMessage1(0)
@@ -149,7 +170,9 @@ export const BlogShowGraph = () => {
     setAutoMode(!autoMode);
     sendMessage2(myMessage);
   };
-
+  const handleSelect = (event: SelectChangeEvent) => {
+    setCrop(event.target.value);
+  };
 
   return (
     <>
@@ -167,17 +190,21 @@ export const BlogShowGraph = () => {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-            <Typography variant="h6" fontWeight="600">Nhiệt độ: </Typography>
+            <Typography variant="h6" fontWeight="600">
+              {i18n.language === 'en' ? ('Temperature ') : ('Nhiệt độ ')}
+            </Typography>
             <ThermostatIcon fontSize="large"/><div id="temp"></div>℃ 
           </Box>
           <Box sx={{
-            gridColumn: 'span 2',
+            gridColumn: 'span 3',
             bgcolor: colorBox,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center'
           }}>
-            <Typography variant="h6" fontWeight="600">Độ ẩm không khí: </Typography>
+            <Typography variant="h6" fontWeight="600">
+              {i18n.language === 'en' ? ('Humidity ') : ('Độ ẩm không khí ')}
+            </Typography>
             <OpacityIcon fontSize="large"/><div id="humid"></div>%
           </Box>
           <Box sx={{
@@ -187,11 +214,13 @@ export const BlogShowGraph = () => {
             alignItems: 'center',
             justifyContent: 'center'
           }}>
-            <Typography variant="h6" fontWeight="600">Độ ẩm đất: </Typography>
+            <Typography variant="h6" fontWeight="600">
+              {i18n.language === 'en' ? ('Soil Moisture ') : ('Độ ẩm đất ')}
+            </Typography>
             <ParkIcon fontSize="large"/><div id="soil"></div>%
           </Box>
           <Box sx={{
-            gridColumn: 'span 3',
+            gridColumn: 'span 2',
             bgcolor: colorBox,
             display: 'flex',
             alignItems: 'center',
@@ -205,7 +234,7 @@ export const BlogShowGraph = () => {
                   onChange={handleChangeManual}
                 />
               }
-              label={<Typography variant="h6" fontWeight="600">Thủ Công</Typography>}
+              label={<Typography variant="h6" fontWeight="600">{i18n.language === 'en' ? ('Manual') : ('Thủ công')}</Typography>}
               labelPlacement="top"
             />
           </Box>
@@ -216,6 +245,26 @@ export const BlogShowGraph = () => {
             alignItems: 'center',
             justifyContent: 'center'
           }}>
+            <FormControl sx={{ m: 1, minWidth: 120,}}>
+              <InputLabel id="demo-simple-select-label">Crop</InputLabel>
+              <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                value={crop}
+                label="Crop"
+                onChange={handleSelect}
+              >
+                <MenuItem value={0}>Wheat</MenuItem>
+                <MenuItem value={1}>Groundnuts</MenuItem>
+                <MenuItem value={2}>Garden Flower</MenuItem>
+                <MenuItem value={3}>Maize</MenuItem>
+                <MenuItem value={4}>Paddy</MenuItem>
+                <MenuItem value={5}>Potato</MenuItem>
+                <MenuItem value={6}>Pulse</MenuItem>
+                <MenuItem value={7}>Sugarcane</MenuItem>
+                <MenuItem value={8}>Coffee</MenuItem>
+              </Select>
+            </FormControl>
             <FormControlLabel
               value="top"
               control={
@@ -224,7 +273,7 @@ export const BlogShowGraph = () => {
                   onChange={handleChangeAuto}
                 />
               }
-              label={<Typography variant="h6" fontWeight="600">Tự Động</Typography>}
+              label={<Typography variant="h6" fontWeight="600">{i18n.language === 'en' ? ('Auto') : ('Tự động')}</Typography>}
               labelPlacement="top"
             />
           </Box>
@@ -241,7 +290,9 @@ export const BlogShowGraph = () => {
               alignItems: 'center'
             }}>
               <Box>
-                <Typography variant="h5" fontWeight="600">Nhiệt độ theo thời gian</Typography>
+                <Typography variant="h5" fontWeight="600">
+                  {i18n.language === 'en' ? ('Historical Temperature') : ('Nhiệt độ theo thời gian')}
+                </Typography>
               </Box>
             </Box>
             <Box height="500px" m="0 0 0 0">
@@ -253,8 +304,8 @@ export const BlogShowGraph = () => {
                   }}
                 >
                   <CartesianGrid strokeDasharray="3 3"/>
-                  <XAxis dataKey="time"/>
-                  <YAxis domain={[parseFloat(Math.min(...data.map(item => item.temp)).toFixed(1))-0.25, parseFloat(Math.min(...data.map(item => item.temp)).toFixed(1))+0.25]}/>
+                  <XAxis dataKey="time" strokeWidth={2}/>
+                  <YAxis domain={[parseFloat(Math.min(...data.map(item => item.temp)).toFixed(1))-0.25, parseFloat(Math.min(...data.map(item => item.temp)).toFixed(1))+0.25]} strokeWidth={2}/>
                   <Tooltip/>
                   <Legend/>
                   <Line type="monotone" dataKey="temp" stroke="#8884d8" activeDot={{r: 8}} />
@@ -275,7 +326,9 @@ export const BlogShowGraph = () => {
               alignItems: 'center'
             }}>
               <Box>
-                <Typography variant="h5" fontWeight="600">Độ ẩm theo thời gian</Typography>
+                <Typography variant="h5" fontWeight="600">
+                  {i18n.language === 'en' ? ('Historical Humidity') : ('Độ ẩm theo thời gian')}
+                </Typography>
               </Box>
             </Box>
             <Box height="500px" m="0 0 0 0">
@@ -287,8 +340,8 @@ export const BlogShowGraph = () => {
                   }}
                 >
                   <CartesianGrid strokeDasharray="3 3"/>
-                  <XAxis dataKey="time"/>
-                  <YAxis domain={[parseFloat(Math.min(...data.map(item => item.humi)).toFixed(1))-0.25, parseFloat(Math.min(...data.map(item => item.humi)).toFixed(1))+0.25]}/>
+                  <XAxis dataKey="time" strokeWidth={2}/>
+                  <YAxis domain={[parseFloat(Math.min(...data.map(item => item.humi)).toFixed(1))-0.25, parseFloat(Math.min(...data.map(item => item.humi)).toFixed(1))+0.25]} strokeWidth={2}/>
                   <Tooltip/>
                   <Legend/>
                   <Line type="monotone" dataKey="humi" stroke="#8884d8" activeDot={{r: 8}} />
@@ -297,51 +350,47 @@ export const BlogShowGraph = () => {
             </Box>
           </Box>
           <Box sx={{
-            gridColumn: 'span 4',
-            gridRow: 'span 2',
+            gridColumn: 'span 6',
+            gridRow: 'span 3',
             bgcolor: colorBox,
-            p: "30px"
           }}>
-            <Typography variant='h5' fontWeight='600'>
-              Campaign
-            </Typography>
             <Box sx={{
+              mt: '25px',
+              p: '0 30px',
               display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              mt: '25px'
+              justifyContent: 'space-between',
+              alignItems: 'center'
             }}>
-              <Typography variant="h5" sx={{mt: "15px"}}>
-                $48,352 revenue generated
-              </Typography>
-              <Typography>Includes extra misc expenditures and costs</Typography>
+              <Box>
+                <Typography variant="h5" fontWeight="600">
+                  {i18n.language === 'en' ? ('Volume of water by day') : ('Lượng nước theo ngày')}
+                </Typography>
+              </Box>
+            </Box>
+            <Box height="500px" m="0 0 0 0">
+              <ResponsiveContainer width="100%" height="80%">
+                <BarChart data={water} margin={{
+                    top: 20, right: 50, left: 20, bottom: 5,
+                  }}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="time" strokeWidth={2}/>
+                  <YAxis strokeWidth={2}/>
+                  <Tooltip />
+                  <Legend />
+                  <Bar dataKey="mlwater" fill="#8884d8" />
+                  {/* <Bar dataKey="uv" fill="#82ca9d" /> */}
+                </BarChart>
+              </ResponsiveContainer>
             </Box>
           </Box>
           <Box sx={{
-            gridColumn: 'span 4',
-            gridRow: 'span 2',
+            gridColumn: 'span 6',
+            gridRow: 'span 3',
             bgcolor: colorBox,
           }}>
-            <Typography
-              variant="h5"
-              fontWeight="600"
-              sx={{ padding: "30px 30px 0 30px" }}
-            >
-              Sales Quantity
+            <Typography variant="h5" fontWeight="600" sx={{ padding: "30px 30px 0 30px" }}>
             </Typography>
             <Box height="250px" mt="-20px">
-            </Box>
-          </Box>
-          <Box sx={{
-            gridColumn: 'span 4',
-            gridRow: 'span 2',
-            bgcolor: colorBox,
-            padding: "30px"
-          }}>
-            <Typography variant="h5" fontWeight="600" sx={{ marginBottom: "15px" }}>
-              Geography Based Traffic
-            </Typography>
-            <Box height="200px">
             </Box>
           </Box>
       </Box>
@@ -349,4 +398,3 @@ export const BlogShowGraph = () => {
     </>
   );
 };
-

@@ -19,6 +19,7 @@ pandas = "==1.5.3"
 schedule = "*"
 websocket-client = "*"
 websockets = "*"
+pytz = "*"
 
 [dev-packages]
 
